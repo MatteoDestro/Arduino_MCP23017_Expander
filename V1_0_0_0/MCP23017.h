@@ -105,8 +105,8 @@
 #define K_MCP23017_IODIR_B		0xFF	//	I/O Director Register.      If "1" the corresponding pin becomes an input otherwise an output
 #define K_MCP23017_IPOL_A		0x00	//	Input Polarity Register.    If "1" the corresponding GPIO register bit will reflect the inverted value on the pin
 #define K_MCP23017_IPOL_B		0x00	//	Input Polarity Register.    If "1" the corresponding GPIO register bit will reflect the inverted value on the pin
-#define K_MCP23017_GPINTEN_A	0x00	//	Interrupt on Change.        If "1" the corresponding pin is enabled for interrupt-on-change
-#define K_MCP23017_GPINTEN_B	0x00	//	Interrupt on Change.        If "1" the corresponding pin is enabled for interrupt-on-change
+#define K_MCP23017_GPINTEN_A		0x00	//	Interrupt on Change.        If "1" the corresponding pin is enabled for interrupt-on-change
+#define K_MCP23017_GPINTEN_B		0x00	//	Interrupt on Change.        If "1" the corresponding pin is enabled for interrupt-on-change
 #define K_MCP23017_DEFVAL_A		0x00	//	Default Compare Register.   If Interrupt-On-Change enabled an opposite value on the associated pin will cause an interrupt to occur
 #define K_MCP23017_DEFVAL_B		0x00	//	Default Compare Register.   If Interrupt-On-Change enabled an opposite value on the associated pin will cause an interrupt to occur
 #define K_MCP23017_INTCON_A		0x00	//	Interrupt Control Register. If "1" the corresponding I/O pin is compared against the associated bit in the DEFVAL register. Otherwise the corresponding I/O pin is compared against the previous value
